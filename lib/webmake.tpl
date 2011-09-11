@@ -51,3 +51,7 @@
 	};
 	return getRequire(modules, []);
 })
+({
+	%%modules%%
+})
+(%%start_path%%);
